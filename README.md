@@ -17,6 +17,6 @@ http://localhost:8080/actuator/mappings =>show all mappings inside app<br/>
 <img src="https://i.ytimg.com/vi/QYDHxlpr04U/sddefault.jpg" />
 1. Controller Layer receives the requests from the clients (Front End) by the @RequestMapping annotation <br/>
 2. Service Layer includes the buisness logic Ex: Payment services, Cart services <br/>
-3. DAO Layer (Data access objects) it is used to access data from Database or Fake Dummy Data<br/>
+3. DAO/Repository Layer (Data access objects) it is used to access data from Database or Fake Dummy Data<br/>
 
 
