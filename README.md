@@ -10,7 +10,7 @@ This repository represents my work during my training period
 @Autowired=> Used to handle dependency injection/inject components<br/>
 @Qualifier=> used to determine which component will be used/injected
 # Springboot actuator important links 
-http://localhost:8080/actuator=> show links and health<br/>
-http://localhost:8080/actuator/health=>show server status<br/>
-http://localhost:8080/actuator/mappings=>show all mappings inside app<br/>
+http://localhost:8080/actuator => show links and health<br/>
+http://localhost:8080/actuator/health =>show server status<br/>
+http://localhost:8080/actuator/mappings =>show all mappings inside app<br/>
 
