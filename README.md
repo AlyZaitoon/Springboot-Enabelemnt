@@ -1,5 +1,5 @@
 # Springboot-Enablement
-This repository represents my work during my training period
+This repository represents the work done during my training period
 # Springboot well known annotations
 @RestController => RestController is used for making restful web services with the help of the @RestController annotation. This annotation is used at the class level and allows the class to handle the requests made by the client.<br/>
 @RequestMapping => RequestMapping annotation is used to map web requests onto specific handler classes and/or handler methods.<br/>
@@ -21,7 +21,10 @@ http://localhost:8080/actuator/mappings =>show all mappings inside app<br/>
 # Spring framework notes
 <ul>
   <li>Spring framework was designed to decouple depedencies of application classes via dependency injection. For example: Drawing has a shape. This shape can be triangle, circle which means that it can be changed at runtime.</li>
-  <li></li>
+  <li>Spring container manages objects inside it only</li>
+  <li>Spring framework works with factory pattern which means when an object is requested , the bean factory/ Application Context will look up the spring xml configuration file for the blueprint of the requested object and then will return the new object </li>
+  <li>Before the introduction of springboot , programmers using spring had to write a xml file defining the blue prints of the objects so that when they use the bean factory it is able to create the objects </li>
+  <li>To add an attribute we use property tag in the xml which uses the setters of the class</li>
   <li></li>
 </ul>
 
