@@ -18,7 +18,8 @@ http://localhost:8080/actuator/mappings =>show all mappings inside app<br/>
 1. Controller Layer receives the requests from the clients (Front End) by the @RequestMapping annotation <br/>
 2. Service Layer includes the buisness logic Ex: Payment services, Cart services <br/>
 3. DAO/Repository Layer (Data access objects) it is used to access data from Database or Fake Dummy Data<br/>
-# Spring framework notes
+# Spring Framework Notes
+
 <ul>
   <li>Spring framework was designed to decouple depedencies of application classes via dependency injection. For example: Drawing has a shape. This shape can be triangle, circle which means that it can be changed at runtime.</li>
   <li>Spring container manages objects inside it only</li>
